@@ -55,7 +55,7 @@ Below are some examples of how our virtual try-on system works:
 | ![person2](https://via.placeholder.com/150x200?text=Person+2) | ![cloth2](https://via.placeholder.com/150x200?text=Clothing+2) | ![result2](https://via.placeholder.com/150x200?text=Result+2) |
 | ![person3](https://via.placeholder.com/150x200?text=Person+3) | ![cloth3](https://via.placeholder.com/150x200?text=Clothing+3) | ![result3](https://via.placeholder.com/150x200?text=Result+3) |
 
-> 📝 You can update these image links with your real image results from the `flask-backend` AI output.
+
 
 ---
 
