@@ -26,22 +26,22 @@
 
 **StyleOra** is an AI-powered virtual try-on e-commerce platform where users can:
 
-- Upload their own image 👤📷
-- Select clothes from the catalog 👗🧥
-- Virtually try them on with realistic AI fitting powered by deep learning 🤖
-- Shop like a traditional clothing e-commerce platform 🛍️💳
+- Upload their own image 👤📷  
+- Select clothes from the catalog 👗🧥  
+- Virtually try them on with realistic AI fitting powered by deep learning 🤖  
+- Shop like a traditional clothing e-commerce platform 🛍️💳  
 
 ---
 
 ## 🏗️ Tech Stack
 
-| Layer           | Technology                                                                      |
-| --------------- | ------------------------------------------------------------------------------- |
-| 🎨 Frontend     | [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)   |
-| ⚙️ Main Backend | [Laravel](https://laravel.com/) – Full-featured e-commerce backend              |
-| 🧠 AI Backend   | [Flask](https://flask.palletsprojects.com/) – Virtual Try-On model API          |
-| 🔐 Admin Panel  | [Django](https://www.djangoproject.com/) – Admin dashboard using built-in admin |
-| 🗄️ Database     | [MySQL](https://www.mysql.com/) – Shared database for Laravel & Django          |
+| Layer            | Technology                                                                 |
+|------------------|----------------------------------------------------------------------------|
+| 🎨 Frontend      | [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/) |
+| ⚙️ Main Backend  | [Laravel](https://laravel.com/) – Full-featured e-commerce backend          |
+| 🧠 AI Backend    | [Flask](https://flask.palletsprojects.com/) – Virtual Try-On model API      |
+| 🔐 Admin Panel   | [Django](https://www.djangoproject.com/) – Admin dashboard using built-in admin |
+| 🗄️ Database      | [MySQL](https://www.mysql.com/) – Shared database for Laravel & Django       |
 
 ---
 
@@ -49,11 +49,13 @@
 
 Below are some examples of how our virtual try-on system works:
 
-| 👤 Person Image                                               | 👚 Clothing Image                                              | 🧠 Try-On Output                                              |
-| ------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------- |
-| ![person](https://via.placeholder.com/150x200?text=Person)    | ![cloth](https://via.placeholder.com/150x200?text=Clothing)    | ![result](https://via.placeholder.com/150x200?text=Result)    |
+| 👤 Person Image | 👚 Clothing Image | 🧠 Try-On Output |
+|----------------|------------------|------------------|
+| ![person](https://via.placeholder.com/150x200?text=Person) | ![cloth](https://via.placeholder.com/150x200?text=Clothing) | ![result](https://via.placeholder.com/150x200?text=Result) |
 | ![person2](https://via.placeholder.com/150x200?text=Person+2) | ![cloth2](https://via.placeholder.com/150x200?text=Clothing+2) | ![result2](https://via.placeholder.com/150x200?text=Result+2) |
 | ![person3](https://via.placeholder.com/150x200?text=Person+3) | ![cloth3](https://via.placeholder.com/150x200?text=Clothing+3) | ![result3](https://via.placeholder.com/150x200?text=Result+3) |
+
+> 📝 You can update these image links with your real image results from the `flask-backend` AI output.
 
 ---
 
@@ -91,7 +93,7 @@ cd StyleOra-VirtualTryOn
 ```bash
 cd frontend
 npm install
-npm run dev
+npm start
 ```
 
 #### ➤ Laravel Backend
@@ -133,7 +135,7 @@ python manage.py runserver
 ✅ Browse and choose clothes  
 ✅ Real-time AI virtual try-on  
 ✅ Add to cart, checkout, payment simulation  
-✅ Admin dashboard to manage products, users, orders
+✅ Admin dashboard to manage products, users, orders  
 
 ---
 
@@ -145,10 +147,10 @@ python manage.py runserver
 
 ## 📌 Contribution Guidelines
 
-1. Fork this repo 🍴
-2. Create a new branch 🌿
-3. Commit your changes 💾
-4. Push to the branch 🚀
+1. Fork this repo 🍴  
+2. Create a new branch 🌿  
+3. Commit your changes 💾  
+4. Push to the branch 🚀  
 5. Create a Pull Request 📥
 
 ---
@@ -157,7 +159,7 @@ python manage.py runserver
 
 > **Thushan Harshajeewa Liyanage**  
 > 🧑‍💻 GitHub: [@thushan-harshajeewa](https://github.com/thushan-harshajeewa)  
-> 📧 Email: [thushan1728@gmail.com]
+> 📧 Email: [Your Email Here]  
 
 ---
 
@@ -170,3 +172,50 @@ Follow for more awesome projects! 🚀
 <p align="center">
   <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
 </p>
+---
+
+## 🛠️ Features
+
+- ✅ Secure user authentication (email/password)
+- ✅ Google Sign-In integration 🔐
+- ✅ Email verification system 📧
+- ✅ Upload user photo for virtual try-on 👤
+- ✅ Browse and choose clothes from catalog 👗
+- ✅ Filter products by:
+  - Size 📏
+  - Gender 🚻
+  - Brand 🏷️
+  - Category 📂
+  - Color 🎨
+  - Price 💰
+- ✅ Real-time AI virtual try-on using uploaded image 🧠
+- ✅ Add to Cart 🛒
+- ✅ Update Cart (quantity, remove item) 🔄
+- ✅ Place Order & Simulate Payment 💳
+- ✅ Order history and tracking 📦
+- ✅ Responsive UI across all devices 📱💻
+- ✅ Admin dashboard to manage:
+  - Users 👥
+  - Products 🧾
+  - Orders 📋
+  - Categories 🗃️
+
+---
+
+## 🖼️ UI Screenshots
+
+> Below are some screenshots representing key features of StyleOra.
+
+| 🖥️ Page | 🖼️ UI Screenshot |
+|--------|------------------|
+| 🔐 Login Page | ![login](https://via.placeholder.com/300x200?text=Login+Page) |
+| 📧 Email Verification | ![email](https://via.placeholder.com/300x200?text=Email+Verification) |
+| 🛍️ Product Catalog | ![catalog](https://via.placeholder.com/300x200?text=Product+Catalog) |
+| 🎨 Product Filters | ![filters](https://via.placeholder.com/300x200?text=Filters) |
+| 🧠 Try-On Interface | ![tryon](https://via.placeholder.com/300x200?text=Virtual+Try-On) |
+| 🛒 Cart Page | ![cart](https://via.placeholder.com/300x200?text=Cart+Page) |
+| 💳 Payment Simulation | ![payment](https://via.placeholder.com/300x200?text=Payment) |
+| 🧑‍💼 Admin Dashboard | ![admin](https://via.placeholder.com/300x200?text=Admin+Dashboard) |
+
+> 📝 Replace the placeholder images with your actual UI screenshots for full effect.
+
